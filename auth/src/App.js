@@ -9,7 +9,7 @@ const generateClassName = createGenerateClassName({
     productionPrefix: 'au',
 })
 export default ({ history, onSignIn }) => {
-    console.log("Apppppp")
+    console.log("Appppppp")
     return (
         <StylesProvider generateClassName={generateClassName}>
             <Router history={history}>
