@@ -141,7 +141,7 @@ const footers = [
 
 export default function Pricing() {
   const classes = useStyles();
-
+  console.log("Pricing")
   return (
     <React.Fragment>
       {/* Hero unit */}
